@@ -60,3 +60,8 @@ executable 04_printing_dept_grid_fixpt
   import: bin, flags
   build-depends: base, adventofcode2025, containers
   main-is:       04_printing_dept_grid_fixpt.hs
+
+executable 05_cafeteria_intervals
+  import: bin, flags
+  build-depends: base, adventofcode2025, aocsplit
+  main-is:       05_cafeteria_intervals.hs
