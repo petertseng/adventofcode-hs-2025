@@ -75,3 +75,8 @@ executable 07_laboratories_beam_split
   import: bin, flags
   build-depends: base, adventofcode2025, containers
   main-is:       07_laboratories_beam_split.hs
+
+executable 08_playground_spanning_tree
+  import: bin, flags
+  build-depends: base, adventofcode2025, aocsplit, array
+  main-is:       08_playground_spanning_tree.hs
