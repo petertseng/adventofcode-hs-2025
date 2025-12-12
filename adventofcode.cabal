@@ -102,3 +102,8 @@ executable 11_reactor_paths
   import: bin, flags
   build-depends: base, adventofcode2025, aocsplit, containers
   main-is:       11_reactor_paths.hs
+
+executable 12_christmas_tree_farm_packing
+  import: bin, flags
+  build-depends: base, adventofcode2025, aocsplit, containers
+  main-is:       12_christmas_tree_farm_packing.hs
